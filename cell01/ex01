@@ -1,0 +1,2 @@
+whole_name = "Supisara Srichan"
+print(whole_name)
