@@ -1,3 +1,6 @@
+Supisara Srichan
+Pitchamon Nanthakamokchai
+
 import random
 
 secret_number = random.randint(1, 100)
@@ -15,10 +18,9 @@ while attempts > 0:
     if guess != secret_number:
         if guess < secret_number:
             lowest = guess + 1
-            print(f"Your guess is not correct. The secret number is between {lowest} and {highest}.")
         else:
             highest = guess - 1
-            print(f"Your guess is not correct. The secret number is between {lowest} and {highest}.")
+        print(f"Your guess is not correct. The secret number is between {lowest} and {highest}.")
         attempts -= 1
     else:
         print("Correct! You've guessed the secret number!")
