@@ -1,7 +1,7 @@
 age = int(input("please tell me your age:"))
 
-print(f"You are currently (age) years old.")
+print(f"You are currently {age} years old.")
 
 for i in range(3):
-    print(f"in (i+1)*10 years, you will be (age + (i+1)*10) years old.")
+    print(f"in {(i+1)*10} years, you will be (age + {(i+1)*10} years old.")
     
