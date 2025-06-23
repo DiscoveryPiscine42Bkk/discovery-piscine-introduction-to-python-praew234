@@ -1,2 +1,5 @@
-whole_name = "Supisara Srichan"
+first_name = "Supisara"
+last_name = "Srichan"
+whole_name = first_name + " " + last_name
+
 print(whole_name)
